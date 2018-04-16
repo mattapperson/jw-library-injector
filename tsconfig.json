@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "lib": [
+      "es2015",
+      "es2016",
+      "es2017",
+      "es2015.proxy",
+      "dom"
+    ],
+    "target": "ES5",
+    "module": "commonjs",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.contract.ts"
+  ]
+}

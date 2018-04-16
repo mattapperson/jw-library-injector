@@ -1,0 +1,24 @@
+@import 'theme';
+@import 'node_modules/carbon-components/src/globals/scss/styles';
+
+.users-table tbody {
+  display:block;
+  height: 408px;
+  width: 96%;
+  overflow-y: scroll;
+}
+
+.users-table thead, tbody tr {
+display:table;
+width:100%;
+table-layout:fixed;
+}
+
+.users-table thead {
+  width:96%;
+}
+
+.bx--modal-container { 
+  position: 'absolute';
+  z-index: 10
+}
